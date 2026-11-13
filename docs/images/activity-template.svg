@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" role="img" aria-label="Illustrative Codex remote activity popover">
+  <rect width="390" height="780" fill="#101820"/>
+  <rect width="390" height="88" fill="#142129"/>
+  <text x="16" y="35" fill="#ecf2f1" font-family="Arial,sans-serif" font-size="18" font-weight="700">Codex remote</text>
+  <text x="16" y="75" fill="#9fd8bd" font-family="Arial,sans-serif" font-size="12">Running · Mac awake</text>
+  <rect x="16" y="111" width="358" height="181" rx="14" fill="#1c2a32" stroke="#33464e"/>
+  <text x="31" y="141" fill="#8bd7b8" font-family="Arial,sans-serif" font-size="14" font-weight="700">Codex update</text>
+  <text x="31" y="177" fill="#ecf2f1" font-family="Arial,sans-serif" font-size="15">Working through the requested</text>
+  <text x="31" y="199" fill="#ecf2f1" font-family="Arial,sans-serif" font-size="15">change now.</text>
+  <rect width="390" height="780" fill="#000" opacity=".35"/>
+  <rect x="12" y="97" width="366" height="449" rx="13" fill="#20313a" stroke="#58717b"/>
+  <text x="28" y="128" fill="#b1d5e5" font-family="Arial,sans-serif" font-size="17" font-weight="700">Activity logs</text>
+  <text x="28" y="158" fill="#9db0b6" font-family="Arial,sans-serif" font-size="12">3 recent logs</text>
+  <rect x="270" y="136" width="92" height="30" rx="7" fill="#283b42" stroke="#60747c"/>
+  <text x="280" y="156" fill="#e4eeee" font-family="Arial,sans-serif" font-size="12">Refresh logs</text>
+  <rect x="27" y="181" width="336" height="72" rx="10" fill="#172a34" stroke="#33464e"/>
+  <text x="42" y="210" fill="#9cc7db" font-family="Arial,sans-serif" font-size="14" font-weight="700">Command</text>
+  <text x="42" y="233" fill="#c8d5d8" font-family="Arial,sans-serif" font-size="13">$ npm test</text>
+  <rect x="27" y="265" width="336" height="72" rx="10" fill="#172a34" stroke="#33464e"/>
+  <text x="42" y="294" fill="#9cc7db" font-family="Arial,sans-serif" font-size="14" font-weight="700">Files changed</text>
+  <text x="42" y="317" fill="#c8d5d8" font-family="Arial,sans-serif" font-size="13">README.md</text>
+  <rect x="27" y="349" width="336" height="72" rx="10" fill="#172a34" stroke="#33464e"/>
+  <text x="42" y="378" fill="#9cc7db" font-family="Arial,sans-serif" font-size="14" font-weight="700">Tool</text>
+  <text x="42" y="401" fill="#c8d5d8" font-family="Arial,sans-serif" font-size="13">Completed</text>
+  <text x="27" y="514" fill="#9aafb5" font-family="Arial,sans-serif" font-size="10">Illustrative template · no real activity data</text>
+</svg>

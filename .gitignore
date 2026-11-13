@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+*.sqlite*
+enabled.json
+sessions.json
+uploads/
+state/
+*.pem
+*.key
+*.p8
+*.p12
+.DS_Store
+AGENTS.md

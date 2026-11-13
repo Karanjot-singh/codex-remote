@@ -1,0 +1,13 @@
+{
+  "name": "codex-remote",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test core.test.mjs api.test.mjs stream.test.mjs multi.test.mjs control.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
