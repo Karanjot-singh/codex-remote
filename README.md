@@ -2,15 +2,21 @@
 
 A small, dependency-free phone bridge for Codex chats already running on your Mac. It mirrors visible chat progress, queues follow-up prompts to the exact thread, and keeps the Mac awake while remote access is enabled. Codex continues to use your own local API-key login. The bridge never asks for or stores an API key.
 
+## Why this exists
+
+OpenAI [documents a native mobile Remote experience](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex) for **supported** desktop chats. In the API-key-based installation that motivated this project, that feature was unavailable. Starting a new cloud task would not continue the local chat already open on the Mac. The practical need was simple: leave Codex working in its existing chat, then read its replies and send the next prompt from a phone.
+
+Codex remote runs beside the local installation. Your phone connects through private Tailscale Serve to a small Mac service, which reads visible progress and queues prompts to the selected chat. Each person runs their own bridge with their own Codex login; no API key is copied into the phone page or this repository. Availability of OpenAI's native Remote feature can change, so this is a solution for setups where that feature is absent or does not cover the desired local chat.
+
 > **Status:** working pilot for Codex Desktop and CLI queueing. Active-turn steering and approval prompts are not supported yet.
 
 ## Preview
 
-These are **illustrative templates**, with sample text and no real chat, network, or account data.
+These screenshots are rendered from the actual phone page styles with **synthetic messages**. They contain no real chat, network, or account data. Rebuild them with `node docs/render-screenshots.mjs` on a Mac with Chrome installed.
 
 | Chat | Activity popover |
 |---|---|
-| ![Illustrative phone chat](docs/images/chat-template.svg) | ![Illustrative activity panel](docs/images/activity-template.svg) |
+| ![Phone chat with sample messages](docs/images/chat.png) | ![Activity popover with sample logs](docs/images/activity.png) |
 
 ## Requirements
 
